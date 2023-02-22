@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejemplo formulario 1</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+	<form action="#" method="get" id="formulario" name="">
+		<div class="nombre">
+			<label for="nombre">Nombre: *</label>
+			<input type="text" name="nom" id="nombre">	
+            <span id="errorNombre"></span>
+		</div>
+        <br>
+		<div>
+			<label for="primerapellido">Primer apellido: *</label>
+			<input type="text" name="apellido1" id="primerApellido">
+            <span id="errorApellido"></span>
+		</div>
+        <br>		
+		<div>
+			<label for="segundoapellido">Segundo apellido: *</label>
+			<input type="text" name="apellido2" id="segundoApellido">
+            <span id="errorApellido2"></span>
+		</div>	
+        <br>
+		<div>
+			<label for="telefono">Teléfono: *</label>
+			<input type="text" name="telefono" id="telefono">
+            <span id="errorTelefono"></span>	
+		</div>  
+		
+		<div>
+            <br>
+			<label for="email">Email:</label>
+			<input type="text" name="email" id="email">	
+            <span id="errorEmail"></span>
+		</div>	
+        <br>
+		<div>
+			<input type="checkbox" value="privacidad" name="privacidad" id="privacidad">He leido y acepto los términos y condiciones	
+			<span id="errorcheckbox"></span>
+		</div>	
+        <br>		
+		<input type="submit" value="Validar y enviar" id="boton">
+		<div id="errores"></div>		
+	</form>
+	<script type="text/javascript" src="formulario.js"></script>
+</body>
+</html>

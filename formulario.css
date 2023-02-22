@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-top: 10em;
+    text-align: left;
+}
+
