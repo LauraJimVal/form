@@ -3,11 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ejemplo formulario 1</title>
+	<title>formulario</title>
     <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
 	<form action="#" method="get" id="formulario" name="">
+		<h1>Login</h1>
 		<div class="nombre">
 			<input type="text" name="nom" id="nombre" placeholder="Nombre">	
             <span id="errorNombre"></span>
@@ -34,11 +35,12 @@
             <span id="errorEmail"></span>
 		</div>	
         <br>
+		<br>
 		<div>
 			<input type="checkbox" value="privacidad" name="privacidad" id="privacidad">He leido y acepto los términos y condiciones	
 			<span id="errorcheckbox"></span>
 		</div>	
-        <br>		
+        <br><br>		
 		<button type="submit" id="boton">Validar</button>
 		<div id="errores"></div>		
 	</form>

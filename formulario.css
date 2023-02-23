@@ -44,3 +44,9 @@ button:hover{
     background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  
     background: linear-gradient(to right, #8E54E9, #4776E6); 
 }
+
+h1{
+    text-align: center;
+    margin-bottom: 2em;
+    color: #4776E6;
+}
