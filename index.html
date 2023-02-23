@@ -9,33 +9,28 @@
 <body>
 	<form action="#" method="get" id="formulario" name="">
 		<div class="nombre">
-			<label for="nombre">Nombre: *</label>
-			<input type="text" name="nom" id="nombre">	
+			<input type="text" name="nom" id="nombre" placeholder="Nombre">	
             <span id="errorNombre"></span>
 		</div>
         <br>
 		<div>
-			<label for="primerapellido">Primer apellido: *</label>
-			<input type="text" name="apellido1" id="primerApellido">
+			<input type="text" name="apellido1" id="primerApellido" placeholder="Primer apellido">
             <span id="errorApellido"></span>
 		</div>
         <br>		
 		<div>
-			<label for="segundoapellido">Segundo apellido: *</label>
-			<input type="text" name="apellido2" id="segundoApellido">
+			<input type="text" name="apellido2" id="segundoApellido" placeholder="Segundo apellido">
             <span id="errorApellido2"></span>
 		</div>	
         <br>
 		<div>
-			<label for="telefono">Teléfono: *</label>
-			<input type="text" name="telefono" id="telefono">
+			<input type="text" name="telefono" id="telefono" placeholder="Teléfono">
             <span id="errorTelefono"></span>	
 		</div>  
 		
 		<div>
             <br>
-			<label for="email">Email:</label>
-			<input type="text" name="email" id="email">	
+			<input type="text" name="email" id="email" placeholder="Email">	
             <span id="errorEmail"></span>
 		</div>	
         <br>
@@ -44,7 +39,7 @@
 			<span id="errorcheckbox"></span>
 		</div>	
         <br>		
-		<input type="submit" value="Validar y enviar" id="boton">
+		<button type="submit" id="boton">Validar</button>
 		<div id="errores"></div>		
 	</form>
 	<script type="text/javascript" src="formulario.js"></script>
